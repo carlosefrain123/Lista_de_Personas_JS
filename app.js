@@ -18,6 +18,7 @@ function agregarPersona() {
         datosPersonas.push(persona)
         mostrarPersona()
     } else {
-        console.log('No hay información por agregar');
+        console.log('Por ahora información por agregar');
     }
+    //Editado el clg
 }
