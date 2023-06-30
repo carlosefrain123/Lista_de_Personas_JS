@@ -1,0 +1,42 @@
+.contenedor{
+    background-color: cornflowerblue;
+    max-width: 400px;
+    margin: 45px auto;
+    padding: 5px 0;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    color: yellow;
+}
+.elemento{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    min-height: 50px;
+}
+.cajaBoton{
+    text-align: center;
+}
+button{
+    border-radius: 50%;
+    border: none;
+    background-color: yellow;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+form{
+    text-align: center;
+}
+input[type="text"]{
+    text-align: center;
+    background: none;
+    border: none;
+    margin: 15px 0 auto;
+    font-weight: bold;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow:  0 5px 0 0 yellow;
+  }
